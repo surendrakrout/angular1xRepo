@@ -1,0 +1,62 @@
+
+    <div class="container" aria-label="Registration container">
+    <div class="row"> 
+        <div class="col-xs-12 col-sm-12 col-md-12 well well-sm">
+            <!--Registration page-->
+            <h4> {{title}}</h4>
+            <form  method="post" class="form" role="form" name="registration">
+            <div class="row">
+                <!--first name-->
+                <div class="col-xs-6 col-md-6">
+                    <input class="form-control" name="firstname" placeholder="First Name" type="text"
+                        required autofocus ng-model="userInfo.first_name"  />
+                        <span ng-show="registration.firstname.$dirty && registration.firstname.$error.required">First name is Required</span>
+                </div>
+                <!--last name-->
+                <div class="col-xs-6 col-md-6">
+                    <input class="form-control" name="lastname" placeholder="Last Name" type="text" required  
+                    ng-model="userInfo.last_name" />
+                    <span ng-show="registration.lastname.$dirty && registration.lastname.$error.required">Last name is Required</span>
+
+                </div>
+            </div>
+            <!--email-->
+            <input class="form-control" name="email" placeholder="Your Email" type="email" required ng-model="userInfo.email"/>
+            <span ng-show="registration.email.$dirty && registration.email.$error.required">Email is Required</span>
+            <span ng-show="registration.email.$dirty && registration.email.$error.email">Email is not valid</span>
+
+            <!--password-->
+            <input class="form-control" name="password" placeholder="Password" 
+            type="password" required ng-model="userInfo.password"
+            ng-minlength="6"
+            ng-maxlength="10"/>
+            <span ng-show="registration.password.$dirty && registration.password.$error.required">Password is Required</span>
+            <span ng-show="registration.password.$dirty && registration.password.$error.minlength">Password is too small</span>
+            <span ng-show="registration.password.$dirty && registration.password.$error.maxlength">Password is too big</span>
+             <!--date of birth-->
+            <div>
+            <label for="date"> Birth Date</label>
+
+                <input class="form-control" name="date" placeholder="Date Of Birth" type="date" required ng-model="userInfo.dob"/>
+                <span ng-show="registration.date.$dirty && registration.date.$error.required">Date of birth is Required</span>
+                </div>
+                 <!--gender-->
+            <label class="radio-inline">
+                <input type="radio" name="sex" id="male" value="male" ng-model="userInfo.sex"/>
+                Male
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="sex" id="female" value="female" ng-model="userInfo.sex"/>
+                Female
+                <span ng-show="registration.sex.$dirty && registration.sex.$error.required">Gender is Required</span>
+            </label>
+            <br />
+            <p class="sub-button"><button class="btn btn-primary" type="submit" ng-click="savenUserInformation()">
+                Register</button>
+                <button class="btn btn-primary" type="reset">
+                    Reset</button></p>
+            
+            </form>
+        </div>
+    </div>
+</div>

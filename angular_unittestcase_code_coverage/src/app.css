@@ -1,0 +1,22 @@
+/* app css stylesheet */
+/* css for main container */
+.container{
+  border:1px solid #ccc;
+  width: 50%;
+  margin-top: 0px auto;
+  padding: 10px;
+}
+/* css for form-control */
+.form-control{
+  margin: 5px;
+}
+/* css for submit button */
+.sub-button{
+text-align: center;
+}
+/* css for input validation */
+input.ng-invalid.ng-dirty{border: 1px thin #CC3333}
+
+span,.error-page{
+  color: #CC3333;
+}

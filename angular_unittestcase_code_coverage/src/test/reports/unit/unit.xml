@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome 65.0.3325 (Windows 10.0.0)" package="unit" timestamp="2018-04-16T17:09:25" id="0" hostname="idea-PC" tests="10" errors="0" failures="0" time="0">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"/>
+  </properties>
+  <testcase name="Registration page Testing controller Testing Application Title" time="0" classname="unit.Registration page"/>
+  <testcase name="Registration page Testing controller Controller should defined" time="0" classname="unit.Registration page"/>
+  <testcase name="Registration page Testing controller Should return true if all the user info in not null" time="0" classname="unit.Registration page"/>
+  <testcase name="Registration page Testing controller Should return true if email is valid" time="0" classname="unit.Registration page"/>
+  <testcase name="Registration page Testing controller Should return false if email is invalid" time="0" classname="unit.Registration page"/>
+  <testcase name="Registration page Testing controller Should return true if password  is greater than 6 chrecters and less than 10 charecters" time="0" classname="unit.Registration page"/>
+  <testcase name="Registration page Testing controller Should return false if password  is not greater than 6 chrecters and less than 10 charecters" time="0" classname="unit.Registration page"/>
+  <testcase name="Registration page Testing controller Should return false if all the user info are null" time="0" classname="unit.Registration page"/>
+  <testcase name="Registration page Testing controller Should return false if all the user info are null" time="0" classname="unit.Registration page"/>
+  <testcase name="Registration page Testing controller Should return false if all the user info are null" time="0" classname="unit.Registration page"/>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

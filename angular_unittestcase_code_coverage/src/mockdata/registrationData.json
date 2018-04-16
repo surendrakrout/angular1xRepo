@@ -1,0 +1,85 @@
+{
+  "emp": [
+    {
+      "id": 1,
+      "first_name": "surendra",
+      "last_name": "rout",
+      "email": "test@gmail.com",
+      "password": "hhhh",
+      "dob": "",
+      "sex": ""
+    },
+    {
+      "first_name": "sdasd",
+      "last_name": "asdasd",
+      "email": "sadasd@aasas.com",
+      "password": "aasasas",
+      "dob": "2018-04-11T18:30:00.000Z",
+      "sex": "male",
+      "id": 2
+    },
+    {
+      "first_name": "asasas",
+      "last_name": "asasas",
+      "email": "surendra@asasc.com",
+      "password": "asasasas",
+      "dob": "2018-04-12T18:30:00.000Z",
+      "sex": "male",
+      "id": 3
+    },
+    {
+      "first_name": "asd",
+      "last_name": "asdas",
+      "email": "assds@sgmsd.com",
+      "password": "sdsdsds",
+      "dob": "2018-04-12T18:30:00.000Z",
+      "sex": "male",
+      "id": 4
+    },
+    {
+      "first_name": "asd",
+      "last_name": "asdas",
+      "email": "assds@sgmsd.com",
+      "password": "sdsdsds",
+      "dob": "2018-04-12T18:30:00.000Z",
+      "sex": "male",
+      "id": 5
+    },
+    {
+      "first_name": "asd",
+      "last_name": "asdas",
+      "email": "assds@sgmsd.com",
+      "password": "sdsdsds",
+      "dob": "2018-04-12T18:30:00.000Z",
+      "sex": "male",
+      "id": 6
+    },
+    {
+      "first_name": "asas",
+      "last_name": "asasds",
+      "email": "sadsads@gmail.com",
+      "password": "sadasdad",
+      "dob": "2018-04-11T18:30:00.000Z",
+      "sex": "male",
+      "id": 7
+    },
+    {
+      "first_name": "zssd",
+      "last_name": "sdsd",
+      "email": "asasas@asas.com",
+      "password": "asasas",
+      "dob": "2018-04-12T18:30:00.000Z",
+      "sex": "male",
+      "id": 8
+    },
+    {
+      "first_name": "sadasd",
+      "last_name": "asdasdasd",
+      "email": "sadasd@asas.com",
+      "password": "asasaw",
+      "dob": "2018-04-12T18:30:00.000Z",
+      "sex": "male",
+      "id": 9
+    }
+  ]
+}

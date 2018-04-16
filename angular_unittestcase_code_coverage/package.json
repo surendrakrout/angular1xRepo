@@ -1,0 +1,31 @@
+{
+  "name": "hclassessment",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Hcl assessment",
+  "repository": "http://35.162.79.223:10080/surendrakumar_r/assessment.git",
+  "author": "HCL",
+  "devDependencies": {
+    "bower": "^1.7.7",
+    "eslint": "^4.19.1",
+    "eslint-plugin-angular": "^3.3.0",
+    "http-server": "^0.9.0",
+    "jasmine-core": "^2.4.1",
+    "jshint": "^2.9.4",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^0.2.3",
+    "karma-firefox-launcher": "^0.1.7",
+    "karma-jasmine": "^0.3.8",
+    "karma-junit-reporter": "^0.4.1",
+    "protractor": "^4.0.9"
+  },
+  "scripts": {
+    "start": "http-server -a localhost -p 8000 -c-1 ./src",
+    "test": "karma start karma.conf.js",
+    "test-single-run": "karma start karma.conf.js --single-run",
+    "lint": "eslint. "
+  },
+  "dependencies": {
+    "karma-js-coverage": "^0.4.0"
+  }
+}
